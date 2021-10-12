@@ -1,0 +1,37 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu */
+nav {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: pink; 
+    color: black;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
